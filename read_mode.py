@@ -1,0 +1,10 @@
+from pathlib import Path
+file_path=Path('C:\\Users\\Praveen S\Documents\\text.txt')
+a=open(file_path,'r')
+print(a)
+print(a.readline())
+print(a.readline())
+a.seek(0)
+f=a.readlines(3)
+f=a.readlines(3)
+print(f)
